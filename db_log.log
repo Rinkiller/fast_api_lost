@@ -1,0 +1,22 @@
+INFO:databases:Connected to database sqlite:///mydatabase.db
+INFO:databases:Disconnected from database sqlite:///mydatabase.db
+INFO:databases:Connected to database sqlite:///mydatabase.db
+INFO:root:User (id: 2) is deleted
+INFO:root:User (id: 3) is deleted
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Rinkcomp\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:New user created: name: Marat, surname: Ilkin, email: Ilkin_marat@mail.ru, password: $2b$12$h1BZ2hJtfL0tSk1I/kqrZOW9AqO8FwAkxYaszlyECGWa8zCcHcgDG
+INFO:databases:Disconnected from database sqlite:///mydatabase.db
+INFO:databases:Connected to database sqlite:///mydatabase.db
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Rinkcomp\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:New user created: name: Ramil, surname: Ilkin, email: il_RAm@mail.ru, password: $2b$12$0PRW2KKtwPhOqGUwWSxaAOVNgD0sev2wLRd55k1tTyCjn41.ahJgS
+INFO:databases:Disconnected from database sqlite:///mydatabase.db
